@@ -11,7 +11,7 @@ sections:
   match: "*"
 - type: directory
   path: content/blog
-  label: Post
+  label: Blog
   create: documents
   match: "*"
   templates:
@@ -22,8 +22,8 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: data
-  label: Data
+  path: Resume
+  label: Resume
   create: documents
   match: "*"
   new_doc_ext: yml
